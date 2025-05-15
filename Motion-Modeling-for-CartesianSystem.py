@@ -154,5 +154,5 @@ angle_df.to_csv("joint_angles_output.csv", index=False)
 print("Joint angle data saved to joint_angles_output.csv")
 
 # === Save Animation as GIF ===
-#ani.save("gait_animation.gif", writer=PillowWriter(fps=20))
-#print("Animation saved as 'gait_animation.gif'")
+ani.save("gait_animation.gif", writer=PillowWriter(fps=20))
+print("Animation saved as 'gait_animation.gif'")
